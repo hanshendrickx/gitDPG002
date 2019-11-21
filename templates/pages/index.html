@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1>Welcome To MPOSP, the MediPrepare Open Source Project</h1>
+    <p>With a few sample questions</p>
+    <a class="btn btn-dark" href="{% url 'quests:index' %}">
+      View Available Questions</a
+    >
+  </div>
+</div>
+{% endblock %}
